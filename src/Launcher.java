@@ -32,6 +32,7 @@ public class Launcher {
                     System.out.println("Unknown Command");
             }
         }
+        /*
         String str2 = scan.nextLine();
         Path path = Paths.get(str2);
         String content = java.nio.file.Files.readString(path);
@@ -55,6 +56,7 @@ public class Launcher {
                 .collect(toList()); // put it in a returned list
 
         System.out.println("top3 = " + top10);
+        */
     }
 }
 
